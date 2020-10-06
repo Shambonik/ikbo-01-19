@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class Window  extends JFrame {
+public class Window extends JFrame {
     JPanel[] pnl = new JPanel[9];
     private int milan = 0;
     private int madrid = 0;
