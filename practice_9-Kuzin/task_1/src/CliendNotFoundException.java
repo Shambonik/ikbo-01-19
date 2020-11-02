@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class CliendNotFoundException {
+public class CliendNotFoundException extends Exception{
+    public CliendNotFoundException(){
+        super("Данного клиента нет в базе");
+    }
 }

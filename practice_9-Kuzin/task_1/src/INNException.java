@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class INNException {
+public class INNException extends Exception {
+    public INNException(){
+        super("Введен недействительный ИНН");
+    }
 }

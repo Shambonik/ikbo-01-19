@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class StudentNotFoundException {
+public class StudentNotFoundException extends Exception{
+    public StudentNotFoundException(){
+        super("Student not found");
+    }
 }

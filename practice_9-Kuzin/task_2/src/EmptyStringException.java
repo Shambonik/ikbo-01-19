@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class EmptyStringException {
+public class EmptyStringException extends Exception {
+    public EmptyStringException(){
+        super("Empty string");
+    }
 }
